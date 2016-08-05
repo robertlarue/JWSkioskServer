@@ -6,6 +6,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ip = require('socket.io');
+require("console-stamp")(console, { pattern: "isoDateTime" });
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
