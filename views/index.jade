@@ -1,0 +1,244 @@
+﻿extends layout
+
+block content
+ 
+    #listContainer.container
+      h1 Kiosk Control Panel
+      p #{address}
+      #kioskList.row
+
+    script(type="text/javascript").
+        var servers = [];
+        var socket = io.connect('http://#{address}:3000');
+        socket.on('connect', function(data) {
+            socket.emit('join', 'Hello Server');
+        });
+        socket.on('display', function(data) {
+            servers = data;
+            servers.forEach(function(server){
+                document.getElementById(server.id + '-displayMessage').value = server.displayMessage;
+                document.getElementById(server.id + '-remoteDisplayMessage').value = server.remoteDisplayMessage;
+                document.getElementById(server.id + '-largeFont').checked = server.largeFont;
+                document.getElementById(server.id + '-scroll').checked = server.scroll;
+                document.getElementById(server.id + '-flash').checked = server.flash;
+
+            });
+        });
+        socket.on('servers', function(data) {
+            servers = data;
+            var listContainer = document.getElementById("listContainer")
+            var kioskListNode = document.getElementById("kioskList");
+            listContainer.removeChild(kioskListNode);
+            kioskListNode = document.createElement("DIV")
+            kioskListNode.id = "kioskList";
+            kioskListNode.className = "row";
+            listContainer.appendChild(kioskListNode);
+            
+            servers.forEach(function(server){
+                var kioskNode = document.createElement("DIV");
+                kioskNode.className = "col-sm-3"
+                kioskNode.style.minWidth = "295px";
+                var kioskNodePanel = document.createElement("DIV");
+                kioskNodePanel.className = "panel panel-default"
+                var kioskPanelHeadingNode = document.createElement("DIV");
+                kioskPanelHeadingNode.className = "panel-heading"
+                var kioskPanelBodyNode = document.createElement("DIV");
+                kioskPanelBodyNode.className = "panel-body"
+                var kioskNodeTable = document.createElement("TABLE");
+                kioskNodeTable.className = "table"
+                var kioskText = document.createTextNode(server.settings.name);
+                var serverAddressNode = document.createElement("TR");
+                var serverAddressLabelNode = document.createElement("TD");
+                var serverAddressLabelText = document.createTextNode("Server Address");
+                var serverAddressTextNode = document.createElement("TD");
+                serverAddressTextNode.className = "col-md-2";
+                var serverAddressText = document.createTextNode(server.settings.serverAddress);
+                var kioskAddressNode = document.createElement("TR");
+                var kioskAddressLabelNode = document.createElement("TD");
+                var kioskAddressLabelText = document.createTextNode("Kiosk Address");
+                var kioskAddressTextNode = document.createElement("TD");
+                kioskAddressTextNode.className = "col-md-2";
+                var kioskAddressText = document.createTextNode(server.settings.JWSkioskAddress);
+                var connectedNode = document.createElement("TR");
+                var connectedLabelNode = document.createElement("TD");
+                var connectedLabelText = document.createTextNode("Kiosk Status");
+                var connectedTextNode = document.createElement("TD");
+                connectedTextNode.className = "col-md-2";
+                var connectedText = '';
+                if(server.connected){
+                    connectedText = document.createTextNode("Connected");
+                    connectedTextNode.style.color = "green";
+                } else{
+                    connectedText = document.createTextNode("Disconnected");
+                    connectedTextNode.style.color = "red";
+                }
+                var displayNode = document.createElement("TR");
+                var displayLabelNode = document.createElement("TD");
+                displayLabelNode.colSpan = "2";
+                var displayLabelText = document.createTextNode("Display Message");
+                var displayTextNode = document.createElement("TR");
+                var displayTypeNode = document.createElement("TD");
+                var displayFormNode = document.createElement("FORM");
+                var displayInputNode = document.createElement("INPUT");
+                displayTypeNode.colSpan = "2";
+                displayInputNode.id = server.id + '-displayMessage';
+                displayInputNode.className = "form-control";
+                displayInputNode.type = "text";
+                if(typeof server.displayMessage !== "undefined"){
+                    displayInputNode.value = server.displayMessage;
+                }
+                else {
+                    displayInputNode.value = '';
+                }
+                displayInputNode.addEventListener("input", updateDisplay.bind({},displayInputNode));
+                function updateDisplay(input){
+                    socket.emit('displayUpdate', {"id" : input.id, "message": input.value});
+                }
+                var remoteDisplayNode = document.createElement("TR");
+                var remoteDisplayLabelNode = document.createElement("TD");
+                remoteDisplayLabelNode.colSpan = "2";
+                var remoteDisplayLabelText = document.createTextNode("Remote Display Message");
+                var remoteDisplayTextNode = document.createElement("TR");
+                var remoteDisplayTypeNode = document.createElement("TD");
+                var remoteDisplayFormNode = document.createElement("FORM");
+                var remoteDisplayInputNode = document.createElement("INPUT");
+                remoteDisplayTypeNode.colSpan = "2";
+                remoteDisplayInputNode.id = server.id + '-remoteDisplayMessage';
+                remoteDisplayInputNode.className = "form-control";
+                remoteDisplayInputNode.type = "text";
+                if(typeof server.displayMessage !== "undefined"){
+                    remoteDisplayInputNode.value = server.remoteDisplayMessage;
+                }
+                else {
+                    remoteDisplayInputNode.value = '';
+                }
+                remoteDisplayInputNode.addEventListener("input", updateRemoteDisplay.bind({},remoteDisplayInputNode));
+                function updateRemoteDisplay(input){
+                    socket.emit('displayUpdate', {"id" : input.id, "message": input.value});
+                }
+                var optionsRowNode = document.createElement("TR");
+                var optionsNode = document.createElement("TD");
+                optionsNode.colSpan = "2";
+                var largeFontLabelNode = document.createElement("LABEL");
+                largeFontLabelNode.className = "checkbox-inline";
+                var largeFontLabelText = document.createTextNode("Large Font");
+                var largeFontInputNode = document.createElement("INPUT");
+                largeFontInputNode.id = server.id + '-largeFont';
+
+                largeFontInputNode.type = "checkbox";
+                largeFontInputNode.value = "";
+                largeFontInputNode.checked = server.largeFont;
+
+                var scrollLabelNode = document.createElement("LABEL");
+                scrollLabelNode.className = "checkbox-inline";
+                var scrollLabelText = document.createTextNode("Scroll");
+                var scrollInputNode = document.createElement("INPUT");
+                scrollInputNode.id = server.id + '-scroll';
+
+                scrollInputNode.type = "checkbox";
+                scrollInputNode.value = "";
+                scrollInputNode.checked = server.scroll;
+
+                var flashLabelNode = document.createElement("LABEL");
+                flashLabelNode.className = "checkbox-inline";
+                var flashLabelText = document.createTextNode("Flash");
+                var flashInputNode = document.createElement("INPUT");
+                flashInputNode.id = server.id + '-flash';
+
+                flashInputNode.type = "checkbox";
+                flashInputNode.value = "";
+                flashInputNode.checked = server.flash;
+
+                flashInputNode.addEventListener("change", updateDisplayOptions.bind({},remoteDisplayInputNode,largeFontInputNode,scrollInputNode,flashInputNode));
+                scrollInputNode.addEventListener("change", updateDisplayOptions.bind({},remoteDisplayInputNode,largeFontInputNode,scrollInputNode,flashInputNode));
+                largeFontInputNode.addEventListener("change", updateDisplayOptions.bind({},remoteDisplayInputNode,largeFontInputNode,scrollInputNode,flashInputNode));
+                
+                function updateDisplayOptions(remoteDisplayInputNode,largeFontInputNode,scrollInputNode,flashInputNode){
+                    socket.emit('displayOptionsUpdate', {"id" : remoteDisplayInputNode.id, "largeFont" : largeFontInputNode.checked, "scroll" : scrollInputNode.checked, "flash" : flashInputNode.checked});
+                    socket.emit('displayUpdate', {"id" : remoteDisplayInputNode.id, "message": remoteDisplayInputNode.value});
+                }
+                kioskPanelHeadingNode.appendChild(kioskText);
+                kioskNodePanel.appendChild(kioskPanelHeadingNode);
+                kioskNodePanel.appendChild(kioskPanelBodyNode);
+                kioskPanelBodyNode.appendChild(kioskNodeTable);
+
+                serverAddressLabelNode.appendChild(serverAddressLabelText);
+                serverAddressNode.appendChild(serverAddressLabelNode);
+                serverAddressTextNode.appendChild(serverAddressText);
+                serverAddressNode.appendChild(serverAddressTextNode);
+                kioskNodeTable.appendChild(serverAddressNode);
+
+                kioskAddressLabelNode.appendChild(kioskAddressLabelText);
+                kioskAddressNode.appendChild(kioskAddressLabelNode);
+                kioskAddressTextNode.appendChild(kioskAddressText);
+                kioskAddressNode.appendChild(kioskAddressTextNode);
+                kioskNodeTable.appendChild(kioskAddressNode);
+
+                connectedLabelNode.appendChild(connectedLabelText);
+                connectedNode.appendChild(connectedLabelNode);
+                connectedTextNode.appendChild(connectedText);
+                connectedNode.appendChild(connectedTextNode);
+                kioskNodeTable.appendChild(connectedNode);
+
+                kioskNode.appendChild(kioskNodePanel);
+                document.getElementById("kioskList").appendChild(kioskNode);
+                if(server.clients.length > 0){
+                    var blankRowNode = document.createElement("BR");
+                    kioskNodeTable.appendChild(blankRowNode);
+                    var clientsConnectedNode = document.createElement("TR");
+                    var clientsConnectedLabelNode = document.createElement("TD");
+                    clientsConnectedLabelNode.colSpan = "2";
+                    var clientsConnectedLabelText = document.createTextNode("BMG Clients Connected: " + server.clients.length);
+                    clientsConnectedLabelNode.appendChild(clientsConnectedLabelText);
+                    clientsConnectedNode.appendChild(clientsConnectedLabelNode);
+                    kioskNodeTable.appendChild(clientsConnectedNode);
+                    server.clients.forEach(function(client){
+                        var clientNode = document.createElement("TR");
+                        var clientLabelNode = document.createElement("TD");
+                        clientLabelNode.colSpan = "2";
+                        var clientText = document.createTextNode(client);
+                        clientLabelNode.appendChild(clientText);
+                        clientNode.appendChild(clientLabelNode);
+                        kioskNodeTable.appendChild(clientNode);
+                    });
+                    var blankRowNode = document.createElement("BR");
+                    kioskNodeTable.appendChild(blankRowNode);
+                }
+                displayLabelNode.appendChild(displayLabelText);
+                displayNode.appendChild(displayLabelNode);
+                displayFormNode.appendChild(displayInputNode);
+                displayTypeNode.appendChild(displayFormNode);
+                displayTextNode.appendChild(displayTypeNode);
+                kioskNodeTable.appendChild(displayNode);
+                kioskNodeTable.appendChild(displayTextNode);
+
+                var blankRowNode = document.createElement("BR");
+                kioskNodeTable.appendChild(blankRowNode);
+
+                remoteDisplayLabelNode.appendChild(remoteDisplayLabelText);
+                remoteDisplayNode.appendChild(remoteDisplayLabelNode);
+                remoteDisplayFormNode.appendChild(remoteDisplayInputNode);
+                remoteDisplayTypeNode.appendChild(remoteDisplayFormNode);
+                remoteDisplayTextNode.appendChild(remoteDisplayTypeNode);
+                kioskNodeTable.appendChild(remoteDisplayNode);
+                kioskNodeTable.appendChild(remoteDisplayTextNode);
+
+
+                largeFontLabelNode.appendChild(largeFontInputNode);
+                largeFontLabelNode.appendChild(largeFontLabelText);
+                optionsNode.appendChild(largeFontLabelNode);
+
+
+                scrollLabelNode.appendChild(scrollInputNode);
+                scrollLabelNode.appendChild(scrollLabelText);
+                optionsNode.appendChild(scrollLabelNode);
+
+
+                flashLabelNode.appendChild(flashInputNode);
+                flashLabelNode.appendChild(flashLabelText);
+                optionsNode.appendChild(flashLabelNode);
+
+                optionsRowNode.appendChild(optionsNode);
+                kioskNodeTable.appendChild(optionsRowNode);
+            });
+        });

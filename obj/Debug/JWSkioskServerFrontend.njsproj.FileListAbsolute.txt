@@ -1,0 +1,2 @@
+C:\Source\JWSkioskServer\JWSkioskServerFrontend\JWSkioskServerFrontend\obj\Debug\JWSkioskServerFrontend.njsprojResolveAssemblyReference.cache
+C:\Source\JWSkioskServer\JWSkioskServerFrontend\JWSkioskServerFrontend\bin\Microsoft.NodejsTools.WebRole.dll

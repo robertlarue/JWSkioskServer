@@ -1,0 +1,5 @@
+*.exe
+!nssm.exe
+!node.exe
+ChromiumPortable
+node_modules

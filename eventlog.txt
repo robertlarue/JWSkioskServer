@@ -1,0 +1,483 @@
+[Lane 1] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.81
+[Lane 2] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.82
+listening on WDLABIIS:3000
+[Lane 2] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 2] JWSkioskServer IP Address = 172.16.4.72
+[Lane 2] [JWSkioskServer => JWS Kiosk] Connected
+[Lane 1] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 1] JWSkioskServer IP Address = 172.16.4.71
+[Lane 1] [JWSkioskServer => JWS Kiosk] Connected
+Webclient connected
+Webclient connected
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWS Kiosk => JWSkioskServer] Card Swiped 10001005
+[Lane 1] [JWSkioskServer => BMG] Sending swipe to 0 BMG client(s)
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] PLEASE WAIT...
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.81
+[Lane 2] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.82
+listening on WDLABIIS:3000
+[Lane 2] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 2] JWSkioskServer IP Address = 172.16.4.72
+[Lane 2] [JWSkioskServer => JWS Kiosk] Connected
+[Lane 1] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 1] JWSkioskServer IP Address = 172.16.4.71
+[Lane 1] [JWSkioskServer => JWS Kiosk] Connected
+Webclient connected
+Webclient connected
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[0mGET /eventlog.txt [33m404 [0m330.765 ms - 508[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m12.293 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m13.337 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m16.790 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m93.944 ms - 110[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m37.800 ms - 1294[0m
+[Lane 1] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.81
+[Lane 2] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.82
+listening on WDLABIIS:3000
+[Lane 2] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 2] JWSkioskServer IP Address = 172.16.4.72
+[Lane 1] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 1] JWSkioskServer IP Address = 172.16.4.71
+[Lane 2] [JWSkioskServer => JWS Kiosk] Connected
+[Lane 1] [JWSkioskServer => JWS Kiosk] Connected
+Webclient connected
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[0mGET /eventlog.txt [32m200 [0m15.241 ms - 3079[0m
+[0mGET /eventlog.txt [32m200 [0m7.610 ms - 3135[0m
+[0mGET /eventlog.txt [32m200 [0m11.415 ms - 3190[0m
+[0mGET /eventlog.txt [32m200 [0m5.594 ms - 3246[0m
+[0mGET / [32m200 [0m605.886 ms - 11959[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m3.216 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m3.002 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.336 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m96.850 ms - 110[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m52.386 ms - 1294[0m
+Webclient connected
+[0mGET / [36m304 [0m339.210 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.203 ms - 110[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m2.826 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m4.945 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.997 ms - -[0m
+Webclient connected
+[0mGET /favicon.ico [33m404 [0m37.686 ms - 1294[0m
+[Lane 1] [JWS Kiosk => JWSkioskServer] Card Swiped 10001005
+[Lane 1] [JWSkioskServer => BMG] Sending swipe to 0 BMG client(s)
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] PLEASE WAIT...
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 2] [BMG => JWSkioskServer] WDLABKS2 connected
+[Lane 1] [BMG => JWSkioskServer] WDLABKS2 connected
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[0mGET /eventlog.txt [32m200 [0m8.208 ms - 4738[0m
+Webclient connected
+[0mGET / [32m200 [0m306.389 ms - 11965[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.072 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.277 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.817 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.989 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m33.974 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m295.798 ms - 11959[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.675 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.171 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m1.332 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.398 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m37.554 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m305.388 ms - 11959[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.313 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m1.410 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m3.113 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.485 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m37.827 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m285.550 ms - 12002[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.310 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.008 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.970 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.607 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m31.574 ms - 1294[0m
+Webclient connected
+[0mGET / [36m304 [0m293.156 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.980 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m3.000 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m3.200 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m5.683 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m47.109 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m302.176 ms - 12003[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.333 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.936 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m1.041 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.281 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m29.076 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m265.087 ms - 12003[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.898 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.801 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.565 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.689 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m27.750 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m233.475 ms - 12003[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.366 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.682 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.865 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.690 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m32.028 ms - 1294[0m
+Webclient connected
+[Lane 1] [BMG => JWSkioskServer] wdmis015.na.vul.com connected
+[Lane 1] [BMG => JWSkioskServer] wdmis015.na.vul.com disconnected
+[0mGET / [32m200 [0m302.347 ms - 12032[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.469 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.536 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m4.901 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m4.796 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m37.239 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m296.611 ms - 12102[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.484 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.062 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.479 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.445 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m38.802 ms - 1294[0m
+Webclient connected
+[0mGET / [36m304 [0m311.834 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.236 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.909 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.901 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.573 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m30.190 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m284.781 ms - 12144[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.343 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.029 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m1.396 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m2.168 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m33.573 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m296.962 ms - 12266[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.932 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m2.016 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m3.863 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.291 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m49.710 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m302.477 ms - 12380[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.252 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.982 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m1.036 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.040 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m36.741 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m285.768 ms - 12376[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.147 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m2.513 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m2.619 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m3.659 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m36.842 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m280.675 ms - 12147[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.243 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m1.249 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.272 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m2.181 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m42.494 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m248.570 ms - 12254[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m5.281 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m2.775 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m2.936 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.809 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m56.347 ms - 1294[0m
+Webclient connected
+[0mGET / [32m200 [0m276.875 ms - 12369[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.361 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m2.451 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m2.855 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m4.487 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m42.607 ms - 1294[0m
+Webclient connected
+display id = 3488-remoteDisplayMessage message = G
+AUX=^E1^C1G
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] G
+display id = 3488-remoteDisplayMessage message = GO
+AUX=^E1^C1GO
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO
+display id = 3488-remoteDisplayMessage message = GO 
+AUX=^E1^C1GO 
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO 
+display id = 3488-remoteDisplayMessage message = GO A
+AUX=^E1^C1GO A
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO A
+display id = 3488-remoteDisplayMessage message = GO AW
+AUX=^E1^C1GO AW
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AW
+display id = 3488-remoteDisplayMessage message = GO AWA
+AUX=^E1^C1GO AWA
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWA
+display id = 3488-remoteDisplayMessage message = GO AWAY
+AUX=^E1^C1GO AWAY
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY
+display id = 3488-remoteDisplayMessage message = GO AWAY 
+AUX=^E1^C1GO AWAY 
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY 
+display id = 3488-remoteDisplayMessage message = GO AWAY A
+AUX=^E1^C1GO AWAY A
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY A
+display id = 3488-remoteDisplayMessage message = GO AWAY AN
+AUX=^E1^C1GO AWAY AN
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AN
+display id = 3488-remoteDisplayMessage message = GO AWAY AND
+AUX=^E1^C1GO AWAY AND
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND
+display id = 3488-remoteDisplayMessage message = GO AWAY AND 
+AUX=^E1^C1GO AWAY AND 
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND 
+display id = 3488-remoteDisplayMessage message = GO AWAY AND N
+AUX=^E1^C1GO AWAY AND N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND N
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NE
+AUX=^E1^C1GO AWAY AND NE
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NE
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEV
+AUX=^E1^C1GO AWAY AND NEV
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEV
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVE
+AUX=^E1^C1GO AWAY AND NEVE
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVE
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER
+AUX=^E1^C1GO AWAY AND NEVER
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER 
+AUX=^E1^C1GO AWAY AND NEVER 
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER 
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER C
+AUX=^E1^C1GO AWAY AND NEVER C
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER C
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER CO
+AUX=^E1^C1GO AWAY AND NEVER CO
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER CO
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COM
+AUX=^E1^C1GO AWAY AND NEVER^NCOM
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COM
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME
+AUX=^E1^C1GO AWAY AND NEVER^NCOME
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME 
+AUX=^E1^C1GO AWAY AND NEVER^NCOME 
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME 
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME B
+AUX=^E1^C1GO AWAY AND NEVER^NCOME B
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME B
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BA
+AUX=^E1^C1GO AWAY AND NEVER^NCOME BA
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BA
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BAC
+AUX=^E1^C1GO AWAY AND NEVER^NCOME BAC
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BAC
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK
+AUX=^E1^C1GO AWAY AND NEVER^NCOME BACK
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK
+display id = 3488-remoteDisplayMessage largeFont = true scroll = false flash = false
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK
+AUX=^E1^C1^L1^K1GO AWAY AND NEVER^NCOME BACK
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK
+display id = 3488-remoteDisplayMessage largeFont = true scroll = true flash = false
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK 
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK 
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK  
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK  ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK  
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK   
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK   ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK   
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK    
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK    ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK    
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK     
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK     ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK     
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK      
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK      ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK      
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK       
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK       ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK       
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK        
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK        ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK        
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK         
+AUX=^E1^C1^D1^L1^K1GO AWAY AND NEVER COME BACK         ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK         
+display id = 3488-remoteDisplayMessage largeFont = false scroll = true flash = false
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK         
+AUX=^E1^C1^D1GO AWAY AND NEVER COME BACK         ^N
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK         
+display id = 3488-remoteDisplayMessage largeFont = false scroll = false flash = false
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK         
+AUX=^E1^C1GO AWAY AND NEVER^NCOME BACK         
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK         
+display id = 3488-remoteDisplayMessage largeFont = false scroll = false flash = true
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK         
+AUX=^E1^C1^X1GO AWAY AND NEVER^NCOME BACK         
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK         
+display id = 3488-remoteDisplayMessage largeFont = false scroll = false flash = false
+display id = 3488-remoteDisplayMessage message = GO AWAY AND NEVER COME BACK         
+AUX=^E1^C1GO AWAY AND NEVER^NCOME BACK         
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] GO AWAY AND NEVER COME BACK         
+display id = 3488-remoteDisplayMessage message = 
+AUX=^E1^C1
+
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] 
+[0mGET /eventlog.txt [32m200 [0m16.465 ms - 20554[0m
+[0mGET / [36m304 [0m292.960 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.522 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m2.397 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m3.357 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m6.824 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m59.206 ms - 1294[0m
+Webclient connected
+[Lane 1] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.81
+[Lane 2] [JWSkioskServer => JWS Kiosk] Opening connection to 172.16.4.82
+listening on WDLABIIS:3000
+[Lane 2] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 2] JWSkioskServer IP Address = 172.16.4.72
+[Lane 2] [JWSkioskServer => JWS Kiosk] Connected
+[Lane 1] [JWSkioskServer => JWS Kiosk] JWS Kiosk is availble. Connecting...
+[Lane 1] JWSkioskServer IP Address = 172.16.4.71
+[Lane 1] [JWSkioskServer => JWS Kiosk] Connected
+Webclient connected
+Webclient connected
+Webclient connected
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [BMG => JWSkioskServer] WDLABKS2 connected
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 2] [BMG => JWSkioskServer] WDLABKS2 connected
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[DEBUG] F#1=|1|END|1|
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] No Connection to Host Please Wait or Call Operator
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] No Connection to Host Please Wait or Call Operator
+[Lane 2] [BMG => JWSkioskServer] No Connection to Host Please Wait or Call Operator
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] 
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] 
+[Lane 2] [BMG => JWSkioskServer] 
+[undefined] ECONNRESET
+[Lane 2] [BMG => JWSkioskServer] WDLABKS2 connected
+[Lane 1] [JWS Kiosk => JWSkioskServer] Card Swiped 2359053
+[Lane 1] [JWSkioskServer => BMG] Sending swipe to 1 BMG client(s)
+[Lane 1] [JWSkioskServer => BMG] Sent swipe to WDLABKS2
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] PLEASE WAIT...
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] Badge Invalid. 2359053
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Badge Invalid. 2359053
+[Lane 1] [BMG => JWSkioskServer] Badge Invalid. 2359053
+[Lane 2] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 2] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[0mGET / [32m200 [0m616.167 ms - 12369[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m8.340 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m8.585 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m10.589 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m85.345 ms - 110[0m
+Webclient connected
+[0mGET / [36m304 [0m273.299 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.084 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m2.153 ms - -[0m
+[0mGET /javascripts/jquery.min.js [36m304 [0m0.690 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m1.940 ms - -[0m
+Webclient connected
+[0mGET /favicon.ico [33m404 [0m53.012 ms - 1294[0m
+[Lane 1] [JWS Kiosk => JWSkioskServer] Card Swiped 10009309
+[Lane 1] [JWSkioskServer => BMG] Sending swipe to 1 BMG client(s)
+[Lane 1] [JWSkioskServer => BMG] Sent swipe to WDLABKS2
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] PLEASE WAIT...
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] Badge Invalid. 10009309
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Badge Invalid. 10009309
+[Lane 1] [BMG => JWSkioskServer] Badge Invalid. 10009309
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[Lane 1] [JWSkioskServer => JWS Kiosk Display] SWIPE CARD
+[Lane 1] [JWSkioskServer => JWS Kiosk Remote Display] Reset
+[0mGET / [32m200 [0m301.275 ms - 12369[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.525 ms - 110[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m40.966 ms - 37045[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m55.493 ms - 121200[0m
+[0mGET /javascripts/jquery.min.js [32m200 [0m53.122 ms - 86355[0m
+[0mGET /stylesheets/bootstrap.min.css.map [33m404 [0m37.208 ms - 1294[0m
+Webclient connected

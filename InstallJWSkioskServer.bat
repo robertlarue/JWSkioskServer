@@ -1,0 +1,1 @@
+c:\scripts\JWSkioskServer\nssm.exe install JWSkioskServer c:\scripts\JWSkioskServer\node.exe c:\scripts\JWSkioskServer\app.js
